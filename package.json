@@ -1,12 +1,13 @@
 {
   "name": "testnodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "node.js on docker",
+  "author": "Viktor Konovalenko <s.work.viktor@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.6.7",
